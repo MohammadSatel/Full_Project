@@ -1,0 +1,17 @@
+.page-content {
+    text-align: center;
+    padding: 2em 5%; /* Responsive vertical padding and fixed horizontal padding */
+    max-width: 800px; /* Maximum width for content */
+    margin: 0 auto; /* Center the content block horizontally */
+    font-family: 'Segoe UI', Arial, sans-serif; /* Professional, clean font */
+}
+
+.centered-image {
+    max-width: 60%; /* Responsive width */
+    max-width: 300px; /* Maximum size to maintain professionalism */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center image horizontally with space above and below */
+    border: 1px solid #ddd; /* Subtle border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}

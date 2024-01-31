@@ -1,0 +1,68 @@
+.colorful-navbar {
+    background-color: #3A405A; 
+    color: #ffffff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px;
+}
+
+.nav-links {
+    list-style: none; 
+    display: flex;
+    gap: 15px; 
+}
+
+.nav-links a {
+    color: inherit; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.05em; 
+    padding-bottom: 5px; 
+    position: relative; 
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); 
+}
+
+.nav-links a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffffff; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; 
+}
+
+.nav-links a:hover::after {
+    opacity: 1;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.auth-buttons button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9em; 
+    transition: color 0.2s ease-in-out;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); 
+}
+
+.auth-buttons button.login {
+    border: 1px solid #3A405A;
+    background-color: #3A405A; 
+}
+
+.auth-buttons button.logout,
+.auth-buttons button.register {
+    background-color: #3A405A; 
+}
+
+.auth-buttons button.register {
+    color: #3A405A;
+}

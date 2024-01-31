@@ -1,0 +1,10 @@
+.page-content {
+    text-align: center; /* Centering content */
+    padding-top: 50px; /* Space from the top */
+}
+
+.centered-image {
+    max-width: 100%; /* Ensuring image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
